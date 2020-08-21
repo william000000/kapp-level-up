@@ -1,0 +1,73 @@
+
+html, body {
+    margin: 0; 
+    height: 100%;
+    overflow: hidden;
+    background-image: url("./img/background.jpg");
+}
+
+nav{
+    margin-top: 10%;
+    margin-bottom: 40px;
+}
+
+nav img{
+    width: 20%;
+}
+.container .row div{
+    border: 1px solid rgba(117, 116, 116, 0.582);
+    height: 200px;
+    text-align: center;
+    padding: 0;
+    margin-right: 12px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.container .row .mytime{
+    font-size: 60px;
+    font-weight: 700;
+    color: white;
+    border-bottom: 1px solid rgba(117, 116, 116, 0.582);
+    height: 65%;
+    padding-top: 20px;
+}
+
+.container .row p{
+    font-size: 14px;
+    padding-top: 8px;
+}
+
+footer{
+    margin-left: 30%;
+}
+footer .row div{
+    color: white;
+}
+
+footer .row div i{
+    background-color: rgba(255, 255, 255, 0.377);
+    padding: 6px;
+}
+
+footer .row div .fa-twitter{
+    color: rgb(255, 230, 6);
+    background-color: white;
+}
+
+
+@media (max-width: 600px) {
+    img.logo-navbar {
+        width: 50%;
+    }
+    body{
+    margin-left: 4%;
+    overflow-y: auto;
+    }
+    .mx-auto p{
+        width: 50%;
+    }
+
+}
+
+
